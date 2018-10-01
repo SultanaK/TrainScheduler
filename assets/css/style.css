@@ -1,0 +1,62 @@
+
+body {
+    background-image: url("../images/TrainStation.jpg");
+    font-family: 'Aref Ruqaa', serif;
+}
+.jumbotron{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: bisque;
+}
+#formdata{
+    border: 10px;
+    outline-color: black;
+}
+
+h1 {
+    color: #fff;
+}
+
+
+.col-md-12.spaceschedule {
+    background-color: #eeeeee;
+    padding: 10px;
+}
+
+.train-header {
+    background-color: #bebebe;
+}
+
+.form-data {
+    background-color: #faf9f9;
+}
+
+.form-bg {
+    background-color: #eeeeee;
+}
+
+.form-group {
+    margin: 40px;
+    outline-style: auto;
+}
+
+.btn {
+    margin-left: 40px;
+    margin-bottom: 60px;
+    background-color: aquamarine;
+    color: purple;
+    padding: 10px 25px;
+}
+
+.form-title {
+    background-color: #bebebe;
+    margin: 0;
+}
+
+.form-control {
+    outline-width: 10px;
+    border: 10px;
+    padding: 10px;
+    margin: 25px;
+}
+
