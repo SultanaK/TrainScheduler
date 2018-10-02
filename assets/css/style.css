@@ -1,12 +1,23 @@
+/*html{
+    background: url("../images/CCE-29-09-18.jpg") no-repeat center center fixed;
+}*/
 
+/*.background-image{
+    background-color: pink;
+    background-image: url("../images/TrainStation.jpg") !important;
+
+}*/
 body {
     background-image: url("../images/TrainStation.jpg");
-    font-family: 'Aref Ruqaa', serif;
+
+    font-family : 'Aref Ruqaa', serif !important;
+    text-align: center;
 }
-.jumbotron{
-    padding-top: 75px;
-    padding-bottom: 75px;
+.jumbotron-fluid{
+    padding-top: 50px;
+    padding-bottom: 45px;
     background-color: bisque;
+    text-align: center;
 }
 #formdata{
     border: 10px;
@@ -19,7 +30,7 @@ h1 {
 
 
 .col-md-12.spaceschedule {
-    background-color: #eeeeee;
+    background-color: bisque;
     padding: 10px;
 }
 
@@ -32,7 +43,7 @@ h1 {
 }
 
 .form-bg {
-    background-color: #eeeeee;
+    background-color: bisque;
 }
 
 .form-group {
@@ -43,9 +54,9 @@ h1 {
 .btn {
     margin-left: 40px;
     margin-bottom: 60px;
-    background-color: aquamarine;
-    color: purple;
-    padding: 10px 25px;
+    background-color: lightgrey;
+    color: rgb(8, 6, 8);
+    padding: 10px 25px; 
 }
 
 .form-title {

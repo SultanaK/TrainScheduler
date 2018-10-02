@@ -1,4 +1,6 @@
-    
+$(document).ready(function(){
+
+
     // initial setup for firebase database
 
   var config = {
@@ -75,4 +77,5 @@ var nextTrainFormatted = moment(nextTrain1).format("hh:mm");
 
   $("#space-table > tbody").append("<tr><td>" + trainName + "</td><td>" + trainDestination + "</td><td>" + trainFreq + "</td><td>" +  nextTrainFormatted + "</td><td>" + minAway + "</td></tr>");
 
+});
 });
